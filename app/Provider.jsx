@@ -3,7 +3,7 @@ import Header from './_components/Header'
 
 function Provider({children}) {
   return (
-    <div>
+    <div >
 <Header />
         {children}
     </div>

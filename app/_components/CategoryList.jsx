@@ -44,7 +44,7 @@ function CategoryList() {
   if (categoryList.length === 0) return <div>No categories found.</div>;
 
   return (
-    <Carousel className="w-full max-w-sm">
+    <Carousel className="w-full max-w-sm py-5">
       <CarouselContent className="-ml-1">
         {categoryList.map((category, index) => (
           <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
